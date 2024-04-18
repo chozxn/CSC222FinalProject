@@ -18,3 +18,8 @@ public class TripPlanner {
 if JFK, price = 
 if LHR, price = 
 if CDG, price = 
+
+if departTime = 8:00am, price = price
+if departTime = 12:30pm, price = price + 100
+if departTime = 5:00pm, price = price + 50
+if departTime = 10:45pm, price = price - 50
